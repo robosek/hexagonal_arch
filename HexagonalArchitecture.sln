@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalArchitecture", "HexagonalArchitecture\HexagonalArchitecture.csproj", "{AD896FB0-E5B6-4BFB-95EE-2FF34A6A6CF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD896FB0-E5B6-4BFB-95EE-2FF34A6A6CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD896FB0-E5B6-4BFB-95EE-2FF34A6A6CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD896FB0-E5B6-4BFB-95EE-2FF34A6A6CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD896FB0-E5B6-4BFB-95EE-2FF34A6A6CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90AD16C3-512D-4BE5-BE2F-FE13E2B0D3C4}
+	EndGlobalSection
+EndGlobal
