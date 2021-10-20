@@ -27,6 +27,11 @@ namespace HexagonalArchitecture.Account.Domain
             return new Account(accountId, baselineBalacne, activityWindow);
         }
 
+        public MaybeAccountId TryGetAccountId()
+        {
+            return new MaybeAccountId(accountId);
+        }
+
         public Money CalculateBalance()
         {
             return Money.Add(baselineBalacne, activityWindow.CalculateBalance(accountId));
@@ -57,5 +62,25 @@ namespace HexagonalArchitecture.Account.Domain
                 .IsPositiveOrZero();
         }
 
+    }
+
+    public class MaybeAccountId
+    {
+        private readonly AccountId accountId;
+
+        public MaybeAccountId(AccountId accountId)
+        {
+            this.accountId = accountId;
+        }
+
+        public bool HasValue()
+        {
+            return accountId != null;
+        }
+
+        public AccountId Value()
+        {
+            return accountId;
+        }
     }
 }

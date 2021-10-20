@@ -7,6 +7,11 @@
   <ItemGroup>
     <Folder Include="Account\Adapter\" />
     <Folder Include="Account\Application\" />
+    <Folder Include="Account\Application\Port\" />
+    <Folder Include="Account\Application\Port\In\" />
+    <Folder Include="Account\Application\Port\Out\" />
+    <Folder Include="Account\Domain\Value\" />
+    <Folder Include="Account\Application\Service\" />
   </ItemGroup>
 
 </Project>
